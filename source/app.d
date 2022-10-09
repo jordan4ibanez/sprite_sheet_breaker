@@ -136,7 +136,7 @@ void main() {
                 }
             }
 
-            writeImageToPngFile("output_textures/" ~ to!string(output) ~ ".png", workerImage);
+            writeImageToPngFile("output_textures/" ~ to!string(baseX + 1) ~ " x " ~ to!string(baseY + 1) ~ ".png", workerImage);
 
             output++;
 
