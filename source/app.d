@@ -143,4 +143,6 @@ void main() {
 
         }
     }
+
+    writeln("\nConversion complete! You now have ", output, " textures!");
 }

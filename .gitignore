@@ -13,3 +13,5 @@ sprite_sheet_breaker-test-*
 *.o
 *.obj
 *.lst
+*.pdb
+/output_textures/
