@@ -136,13 +136,12 @@ void main() {
                 }
             }
 
-            writeImageToPngFile("output_textures/" ~ to!string(baseX + 1) ~ " x " ~ to!string(baseY + 1) ~ ".png", workerImage);
+            writeImageToPngFile("output_textures/" ~ to!string(baseY + 1) ~ " x " ~ to!string(baseX + 1) ~ ".png", workerImage);
 
             output++;
-
 
         }
     }
 
-    writeln("\nConversion complete! You now have ", output, " textures!");
+    writeln("Conversion complete! You now have ", output, " textures!\n");
 }
