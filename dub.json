@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"jordan4ibanez"
+	],
+	"copyright": "Copyright © 2022, jordan4ibanez",
+	"dependencies": {
+		"arsd-official:image_files": "~>10.9.2"
+	},
+	"description": "A tool to break sprite sheets into individual textures written in D",
+	"license": "MIT",
+	"name": "sprite_sheet_breaker"
+}

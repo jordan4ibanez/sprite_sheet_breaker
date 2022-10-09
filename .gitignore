@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sprite_sheet_breaker
+sprite_sheet_breaker.so
+sprite_sheet_breaker.dylib
+sprite_sheet_breaker.dll
+sprite_sheet_breaker.a
+sprite_sheet_breaker.lib
+sprite_sheet_breaker-test-*
+*.exe
+*.o
+*.obj
+*.lst
