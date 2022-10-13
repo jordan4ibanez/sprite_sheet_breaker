@@ -119,11 +119,11 @@ void main() {
 
     foreach (baseY; 0..mapSizeY) {
             
-        int basePixelY = baseY == 0 ? 0 : (baseY * size) + ((baseY - 1) * border);
+        int basePixelY = baseY == 0 ? 0 : (baseY * size) + (baseY * border);
 
         foreach (baseX; 0..mapSizeX) {
 
-            int basePixelX = baseX == 0 ? 0 : (baseX * size) + ((baseX - 1) * border);
+            int basePixelX = baseX == 0 ? 0 : (baseX * size) + (baseX * border);
 
             foreach (x; 0..size) {
                 foreach (y; 0..size) {
